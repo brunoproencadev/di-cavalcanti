@@ -202,13 +202,56 @@ body {
 }
 
 .conteudo-biografia {
-  max-width: 820px;
+  max-width: 920px;
   margin-left: auto;
   margin-right: auto;
   background-color: #ffffff;
-  padding: 36px 40px;
+  padding: 36px 36px;
   border: 1px solid #e7ded2;
   border-left: 5px solid #a33b20;
+  font-size: 0; /* Remove espaco inline-block entre colunas */
+}
+
+.coluna-foto-autor {
+  display: inline-block;
+  vertical-align: middle;
+  width: 32%;
+  margin-right: 4%;
+  font-size: 15px;
+  text-align: center;
+}
+
+.figura-autor {
+  margin: 0;
+  display: block;
+}
+
+.imagem-autor {
+  display: block;
+  width: 100%;
+  max-width: 240px;
+  height: 280px;
+  object-fit: cover;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid #d4c7b6;
+  border-radius: 4px;
+}
+
+.legenda-autor {
+  display: block;
+  font-size: 12px;
+  font-weight: 600;
+  color: #7a6a5d;
+  margin-top: 10px;
+}
+
+.coluna-texto-autor {
+  display: inline-block;
+  vertical-align: middle;
+  width: 64%;
+  font-size: 15px;
+  text-align: left;
 }
 
 .paragrafo-destaque {
@@ -467,5 +510,16 @@ body {
 
   .conteudo-biografia {
     padding: 24px 20px;
+  }
+
+  .coluna-foto-autor,
+  .coluna-texto-autor {
+    display: block;
+    width: 100%;
+    margin-right: 0;
+  }
+
+  .coluna-foto-autor {
+    margin-bottom: 22px;
   }
 }
