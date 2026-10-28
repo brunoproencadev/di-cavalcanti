@@ -425,3 +425,47 @@ body {
   font-size: 12px;
   color: #9c8e82;
 }
+
+/* Responsividade simples sem flexbox */
+@media (max-width: 768px) {
+  .titulo-principal {
+    font-size: 32px;
+  }
+
+  .subtitulo-hero {
+    font-size: 17px;
+  }
+
+  .botao-destaque,
+  .botao-secundario {
+    display: block;
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 12px;
+  }
+
+  .item-navegacao {
+    display: inline-block;
+    margin-left: 6px;
+    margin-right: 6px;
+    margin-bottom: 6px;
+  }
+
+  .cartao-estilo,
+  .cartao-obra,
+  .item-legado {
+    display: block;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 24px;
+  }
+
+  .imagem-obra {
+    height: 220px;
+  }
+
+  .conteudo-biografia {
+    padding: 24px 20px;
+  }
+}
