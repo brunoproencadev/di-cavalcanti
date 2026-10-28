@@ -328,3 +328,71 @@ body {
   color: #594d43;
   line-height: 1.6;
 }
+
+/* Secao de Legado */
+.secao-legado {
+  padding-top: 65px;
+  padding-bottom: 70px;
+  background-color: #f2ebe0;
+  border-top: 1px solid #e5ded2;
+}
+
+.citacao-legado {
+  max-width: 760px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 45px;
+  text-align: center;
+  padding: 24px 20px;
+  background-color: #ffffff;
+  border: 1px solid #ded4c5;
+}
+
+.frase-citacao {
+  font-size: 17px;
+  font-style: italic;
+  color: #2e2621;
+  line-height: 1.7;
+  margin-bottom: 10px;
+}
+
+.autor-citacao {
+  display: block;
+  font-size: 13px;
+  font-weight: 600;
+  color: #a33b20;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.destaques-legado {
+  text-align: center;
+  font-size: 0; /* Remove espaco inline-block */
+}
+
+.item-legado {
+  display: inline-block;
+  vertical-align: top;
+  width: 31%;
+  margin-left: 1.1%;
+  margin-right: 1.1%;
+  background-color: #ffffff;
+  padding: 24px 18px;
+  border: 1px solid #ded5c7;
+  text-align: center;
+  font-size: 15px;
+}
+
+.subtitulo-legado {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: #a33b20;
+  margin-bottom: 10px;
+}
+
+.texto-legado {
+  font-size: 14px;
+  color: #55483d;
+  line-height: 1.6;
+}
