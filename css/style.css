@@ -229,3 +229,46 @@ body {
 .paragrafo-texto:last-child {
   margin-bottom: 0;
 }
+
+/* Secao de Estilo Artistico */
+.secao-estilo {
+  padding-top: 65px;
+  padding-bottom: 65px;
+  background-color: #f4eee5;
+  border-top: 1px solid #e7ded2;
+  border-bottom: 1px solid #e7ded2;
+}
+
+.colunas-estilo {
+  text-align: center;
+  font-size: 0; /* Remove espacamento inline-block */
+}
+
+.cartao-estilo {
+  display: inline-block;
+  vertical-align: top;
+  width: 31%;
+  margin-left: 1.1%;
+  margin-right: 1.1%;
+  background-color: #ffffff;
+  padding: 28px 22px;
+  border: 1px solid #ded5c7;
+  text-align: left;
+  font-size: 15px;
+}
+
+.titulo-cartao {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: #1a1614;
+  margin-bottom: 12px;
+  padding-bottom: 8px;
+  border-bottom: 2px solid #e5c3b3;
+}
+
+.texto-cartao {
+  font-size: 14px;
+  color: #55483d;
+  line-height: 1.7;
+}
